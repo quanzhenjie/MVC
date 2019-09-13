@@ -1,0 +1,112 @@
+@charset "gb2312";
+
+/*主色调设置-前景色橙色 #d00407*/
+.front-color{color:#d00407;}
+
+/*主色调设置-背景色橙色*/
+.back-color{background-color:#d00407;color:#fff;}
+
+/* 基础设置，此文件基本不用修改 */
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+html,body{
+	font-size:12px;
+	font-family:"微软雅黑","宋体";
+	line-height: 24px;
+	color:#555;
+	text-align:center;
+	background-color:#f3f3f3;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th {
+	text-align: left;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+a{
+	color:#666;
+	text-decoration: none;
+}
+a:hover{
+	color:#d00407;
+	
+}
+
+
+.w980{ width:980px; margin:0 auto;}
+.lft{ float:left;}
+.rgt{ float:right;}
+.red{ color:#cc0000;}
+.f12{ font-size:12px;}
+.f14{ font-size:14px;}
+.f_b{ font-weight:bold;}
+
+.a_l{text-align:left;}
+.a_r{text-align:right;}
+.a_c{text-align:center;}
+
+.m5{margin:5px;}
+.mt5{ margin-top:5px;}
+.mb8{ margin-bottom:8px;}
+.pt20{ padding-top:20px;}
+.pb5{ padding-bottom:5px;}
+
+.r3{ border-radius: 3px; }
+.r5{ border-radius: 5px; }
+.r8{ border-radius: 8px; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.2);}
+.r10{ border-radius: 10px; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.2);}
+
+.input25{width:25px; height:22px; padding-left:3px; border:1px solid #ccc;}
+.input50{width:50px; height:22px; padding-left:3px; border:1px solid #ccc;}
+.input80{width:80px; height:22px; padding-left:3px; border:1px solid #ccc;}
+.input100{width:100px; height:22px; padding-left:3px; border:1px solid #ccc;}
+.input200{width:200px; height:22px; padding-left:3px; border:1px solid #ccc;}
+.input300{width:300px; height:22px; padding-left:3px; border:1px solid #ccc;}
+
+select{	height:23px; color:#777;	border:1px solid #ccc; }
+
+.button{
+	width:auto;
+	height:23px;
+	padding:2px 12px;
+	margin-left:5px;
+	cursor:pointer;
+	text-align:center;
+	border:1px solid #ccc;
+}
+.graybt{
+	color:#555;
+	background:gray; /* 一些不支持背景渐变的浏览器 */  
+    background:-moz-linear-gradient(top, #f8f8f8, #d8d8d8);  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#f8f8f8), to(#d8d8d8));  
+    background:-o-linear-gradient(top, #f8f8f8, #d8d8d8); 
+}
+
+:focus{outline:none;}
+a:focus{outline:none;}
+
+
+
+
+/** 清除浮动 **/
+.clearfix:after{content: "　";display: block;visibility:hidden;height: 0;clear: both;}  /*放在父容器里*/
+.clearfix{zoom: 1;}
+.clear{clear:both;}
+
+
+
+
+

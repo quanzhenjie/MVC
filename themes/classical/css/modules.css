@@ -1,0 +1,327 @@
+@import url("../iconfont/iconfont.css");
+
+body{
+    margin: 20px 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "Î¢ÈíÑÅºÚ","ËÎÌå";
+    line-height: 24px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
+h1.title {
+    height: 40px;
+    margin: 15px auto;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.front-color {
+    color: #d00407;
+}
+
+.form_table{
+    margin: 5px;
+    
+}
+.form_table label{
+    width: 100%;
+    float: left;
+    text-align: center;
+    border-right: 1px dashed #ddd;
+    margin-right: 10px;
+}
+
+.form_table table{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #DDD;
+    border-collapse:collapse;
+}
+.form_table a{
+    text-decoration: none;
+}
+.form_table table td{
+    background: #FFF;
+    color: #999999;
+    border: 1px solid #DDD;
+    border-left: 0px;
+    line-height: 100%;
+}
+.form_table table td input{
+    outline: none;
+    border: 0px;
+    color: #000000;
+}
+
+.form_table table th{
+    background: #FFF;
+    color: #666;
+    border: 1px solid #DDD;
+    border-right: 0px;
+}
+
+/*******************/
+.form-item {
+    width: 500px;
+    height: 45px;
+    line-height: 45px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 8px auto;
+}
+.form-item label {
+    width: 120px;
+    float: left;
+    text-align: center;
+    border-right: 1px dashed #ddd;
+    margin-right: 10px;
+}
+.form-item input.txt-input {
+    border: 0px;
+    width: 250px;
+    height: 43px;
+    line-height: 43px;
+}
+.form-item input{
+    outline: none;
+}
+input[readonly] {
+    color: #888;
+    cursor: not-allowed;
+}
+/******************/
+
+.buttons input{
+    width: auto;
+    height: 23px;
+    padding: 2px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f8f8f8), to(#d8d8d8));
+}
+.list_table td{
+    text-align: center;
+}
+
+.tab_page{
+    height: auto;
+    
+}
+.tab_page .table_border{
+    margin: 5px;
+    border: 0px solid #C4D9EE;
+}
+.tab_page table{
+    width: 100%;
+    text-align: center;
+    color: #666;
+}
+.tab_page table img{
+    border: 0px;
+}
+.tab_page .table_head{
+    height: 27px;
+    background: #e0e0e0;
+    font-size: 13px;
+    font-weight: bold;
+}
+.tab_page td{
+    padding: 10px 5px;
+}
+.tab_page .table_body_1{
+    background: #FFF;
+
+}
+.tab_page .table_body_1:hover{
+    background: #FFEFEF;
+}
+.tab_page .table_body_2{
+    background: #FFF;
+
+}
+.tab_page .table_body_2:hover{
+    background: #FFEFEF;
+}
+.tab_page .table_foot{
+    margin: 5px;
+}
+.table_foot .page_operate{
+    width: 100%;
+}
+.table_foot img{
+    margin-bottom: -7px;
+}
+.page_operate .operate{
+    float: left;
+    margin-left: 7px;
+}
+.page_operate .page{
+    float: right;
+    margin-right: 7px;
+    line-height: 23px;
+}
+.page_operate .page input{
+    height: 16px;
+}
+.page_operate .goto_page{
+    width: 25px;
+    height: 12px;
+    line-height: 23px;
+}
+.page_operate a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/******ÅÅÐò¿ò*********/
+.order input{
+    width: auto;
+    height: 23px;
+    padding: 2px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f8f8f8), to(#d8d8d8));
+}
+
+.order select{
+    height: 23px;
+    color: #777;
+    border: 1px solid #ccc;
+}
+
+.order a{
+    float: left;
+    width: auto;
+    height: 23px;
+    line-height: 23px;
+    margin: auto 10px auto -3px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #d00407;
+    color: #fff;
+    border: 0px;
+    padding: 3px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: block;
+}
+
+/***************ËÑË÷¿ò***************/
+.search{
+    width: auto;
+    height: auto;
+    line-height: 30px;
+    background: transparent;
+    margin: 0px 5px 15px 5px;
+    border: 0px solid #CCCCCC;
+}
+.search .order{
+    float: left;
+    color: #555;
+    line-height: 30px;
+    margin: auto auto auto 5px;
+}
+
+.search_form{
+    float: right;
+    line-height: 30px;
+    margin: auto 15px auto auto;
+}
+
+.search_form input{
+    width: auto;
+    height: 23px;
+    padding: 2px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #666;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f8f8f8), to(#d8d8d8));
+}
+
+.search_form select{
+    height: 23px;
+    color: #777;
+    border: 1px solid #ccc;
+    line-height: 23px;
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+
+.search_form #search_keyword{
+    width: 200px;
+    height: 18px;
+    padding-left: 3px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: auto;
+    text-align: left;
+}
+
+.advanced_search_form{
+    clear: both;
+    padding: 0px;
+    background: #FFF;
+}
+.advanced_search_form div{
+    margin: 0px;
+    padding: 0px 0px 0px 7px;
+}
+.advanced_search_open{
+    display: block;
+    float: right;
+    width: 68px;
+    padding-left: 10px;
+    color: #666;
+    cursor: pointer;
+    background-image: url(../images/arrow_down.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 18px;
+}
+.advanced_search_open:hover{
+    color: #d00407;
+    background-image: url(../images/arrow_down_dark.png);
+}
+.advanced_search_form .advanced_search_form_container{
+    padding-bottom: 5px;
+    display: none;
+}
+.advanced_search_form .advanced_search_form_input{
+    width: 200px;
+}
+.advanced_search_form .advanced_search_form_date{
+    width: 75px;
+}
+
+.advanced_search_form input{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.advanced_search_form .advanced_search_button{
+    width: auto;
+    height: 23px;
+    padding: 2px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #666;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f8f8f8), to(#d8d8d8));
+}
