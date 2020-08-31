@@ -108,8 +108,7 @@ class Controller {
         return $json;
     }
     private function ArrayToJson($data=array()){
-        $data[0] = isset($data[0])?$data[0]:null;
-        if(is_array($data[0])){
+        if(count($data) == 0 || is_array(@$data[0])){
             $json = "[";
             $i=0;
             foreach($data as $array_data){
