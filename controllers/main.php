@@ -30,8 +30,8 @@ class Main {
         self::$action = isset($_GET['action'])?$_GET['action']:null;
         self::$order = isset($_GET['order'])?$_GET['order']:null;
         self::$where = isset($_GET['where'])?stripslashes($_GET['where']):null;
-        self::$page = (is_numeric(isset($_GET['page'])) && $_GET['page']>1?$_GET['page']:1);
-        self::$id = (is_numeric(isset($_GET['id']))?$_GET['id']:null);
+        self::$page = (isset($_GET['page']) && $_GET['page']>1?$_GET['page']:1);
+        self::$id = (isset($_GET['id']) && is_numeric($_GET['id'])?$_GET['id']:null);
         self::$config = $config;
         self::GotoController();
     }
