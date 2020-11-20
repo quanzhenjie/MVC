@@ -42,7 +42,7 @@
         /**********实例***************
         <div class="debug_list"><table><tr><th rowspan="2" class="debug_id">1</th><td class="debug_sql">SELECT * FROM DEBUG</td></tr><tr><td class="debug_note">查询DEBUG实例</td></tr></table></div>
         */
-        
+        $debug_id = 0;
         foreach($this->debug as $debug_list){
         ?>
         <div class="debug_list"><table><tr><th rowspan="2" class="debug_id"><?php echo ++$debug_id; ?></th><td class="debug_sql"><?php echo $debug_list['sql']; ?></td></tr><tr><td class="debug_note"><?php echo $debug_list['note']; ?></td></tr></table></div>
