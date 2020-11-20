@@ -67,7 +67,7 @@ class CreateList {
                 preg_match("@".$key." like '%([^'%]+?)%'@",$get_where,$matches);
             }
             $matches[1] = isset($matches[1])?$matches[1]:null;$matches[2] = isset($matches[2])?$matches[2]:null;
-            $advanced_search_html .= "<th>".$this->fields[$key].":</th><td>".($val=="date"?"<input type=\"text\" id=\"".$key."_start\" name=\"".$key."\" class=\"advanced_search_form_date\" onclick=\"WdatePicker()\" value=\"".$matches[1]."\" />-<input type=\"text\" id=\"".$key."_end\" name=\"".$key."\" class=\"advanced_search_form_date\" onclick=\"WdatePicker()\" value=\"".$matches[2]."\" />":"<input type=\"text\" id=\"".$key."\"".($val=="number"?" onkeydown=\"number_check(event,this)\"":"")." value=\"".$matches[1]."\" />")."</td>";
+            $advanced_search_html .= "<th>".$this->fields[$key].":</th><td>".($val=="date"?"<input type=\"text\" id=\"".$key."_start\" name=\"".$key."\" class=\"advanced_search_form_date\" onclick=\"WdatePicker()\" value=\"".$matches[1]."\" />-<input type=\"text\" id=\"".$key."_end\" name=\"".$key."\" class=\"advanced_search_form_date\" onclick=\"WdatePicker()\" value=\"".$matches[2]."\" />":"<input type=\"text\" id=\"".$key."\"".($val=="number"?" onkeyup=\"number_check(event,this)\"":"")." value=\"".$matches[1]."\" />")."</td>";
             $advanced_search_html .= $i%3?"":"</tr><tr>";
         }
         $advanced_search_html .= ($i%3?'</tr><tr>':'').'<td colspan="6"><input class="advanced_search_button" type="button" value="高级搜索" onclick="advanced_search()" /></td></tr></table></div></div>';
