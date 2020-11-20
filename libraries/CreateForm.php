@@ -270,7 +270,7 @@ class CreateForm {
         $post_send = "";
         $i=0;
         foreach($fields as $key=>$val){
-            if(($val['type']!="null" && $val['type']!="hidden") || ($key=="id" && $_GET['id'])){
+            if(($val['type']!="null" && $val['type']!="hidden") || ($key=="id" && isset($_GET['id']))){
                 $i++;
                 if($i!=1){
                     $post_send .= ",";
