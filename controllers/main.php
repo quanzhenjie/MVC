@@ -55,7 +55,7 @@ class Main {
         }
     }
     
-    private function Goto404($cause){
+    private static function Goto404($cause){
         require_once (CONTROLLERS_PATH."/"."Error_404.php");
         self::$controller_object = new Error_404($cause);
     }
